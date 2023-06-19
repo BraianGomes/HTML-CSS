@@ -1,0 +1,53 @@
+@charset "UTF-8";  
+
+body{
+    background-color:#55FADA;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    color:#AD4D2A;
+}
+
+h1#principal{
+    /*font-style: italic light 2em ;*/
+    text-align: center;
+    font-family: 'Caveat';
+font-family: 'EB Garamond', serif;
+font-family: 'Kaushan Script';
+font-family: 'Marck Script';
+font-family: 'Nova Mono', monospace;
+color:white;
+background-color:#FF3300;
+font-size: 3em;
+}
+
+.basico{
+    color:white;
+    font-weight: lighter;
+    font-family: 'Caveat';
+font-family: 'EB Garamond', serif;
+font-family: 'Kaushan Script';
+font-family: 'Marck Script';
+font-family: 'Nova Mono', monospace;
+font-family: 'Sriracha';
+}
+
+.inter{
+    color: rgb(228, 253, 6);
+
+}
+
+.avancado{
+    color: rgb(253, 55, 6);
+}
+
+h2{
+    color:#FF9770;
+
+}
+
+.destaque{
+
+background-color: rgba(255, 255, 255, 0.233);
+}

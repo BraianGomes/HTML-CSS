@@ -1,0 +1,42 @@
+body{
+    background-color:#A7BD71;
+}
+
+h1{
+    color:#70453E;
+
+    font-family: 'Caveat', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Nova Mono', monospace;
+font-family: 'Sriracha', cursive;
+font-size: 4em;
+}
+
+p{
+    color: #2d2aaf62;
+    font-family: 'Caveat', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Nova Mono', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Sriracha', cursive;
+}
+
+h1#h1principal{
+    color: rgb(1, 2, 14);
+    background-color: white;
+    text-align: center;
+}
+
+.h2principal{
+    color:white;
+    font-size: 4em;
+    background-color: #8c71bd;
+    text-align: right;
+
+}

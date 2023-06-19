@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+:root{
+    --cordefundo:#7fd6b5;
+    --verde: #599D32;
+}
+
+
+body{
+background-color:var(--cordefundo);
+}
+h1{
+background-color:#933D00;
+color: #D4FFED ; 
+font-size: 3em;
+text-align: center;
+font-family: 'Cookie', 'cursive';
+}
+
+p{
+    font-family: 'Shadows Into Light', 'cursive';}
+
+a:hover{
+    color:#599D32;
+}
