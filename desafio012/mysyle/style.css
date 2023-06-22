@@ -11,8 +11,6 @@
     --fonttitle:'Inconsolata', monospace;
 }
 
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -39,10 +37,24 @@ header > h1{
 }
 
 header > div{
-    padding-bottom: 2em;
-}
-  
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
 
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    }
+
+a:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
 
 header > p{
     padding-bottom: 50px;
@@ -63,6 +75,10 @@ section{
     font-size: 4.0vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -71,22 +87,26 @@ section.normal{
 section.image{
     background-color: rgb(32, 27, 27);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.image > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(34, 15, 15, 0.342);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
 }
 
-a:hover{
-    text-decoration: underline;
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer{
