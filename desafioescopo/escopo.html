@@ -7,7 +7,7 @@
 
     <style>
 
-        body{
+        tbody{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1.5rem;
         }
@@ -27,13 +27,17 @@
 
         }
 
-        td.exatas{
+        td.white{
             background-color: gray;
+            color: white;
         }
 
-        td.humanas{
-            background-color: gray;
+        thead{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5em;
         }
+
 
     </style>
     
@@ -44,14 +48,14 @@
 
         <thead>
             <tr>
-                <th rowspan="2">Area</th>
-                <th rowspan="2">Disciplina</th>
-                <th colspan="2">Notas</th>
+                <th rowspan="2" >Area</th>
+                <th rowspan="2" >Disciplina</th>
+                <th colspan="2" >Notas</th>
                 <th rowspan="2">Media</th>
             </tr>
 
             <tr>
-                <th>Nota 1</th>
+                <th class=" white">Nota 1</th>
                 <th>Nota 2</th>
             </tr>
         </thead>
@@ -59,56 +63,56 @@
         <tbody>
             <tr>
                 <th rowspan="4">Exatas</th>
-                <th>Matematica</th>
+                <td>Matematica</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <th>Fisica</th>
+                <td>Fisica</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <th>Quimica</th>
+                <td>Quimica</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <th>Biologia</th>
+                <td>Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td colspan="4" class="exatas">Media de Exatas</td>
-                <td class="exatas">0.0</td>
+                <td colspan="4" class="white">Media de Exatas</td>
+                <td class="white">0.0</td>
             </tr>
 
             <tr>
                 <th rowspan="2">Humanas</th>
-                <th>Historia</th>
+                <td>Historia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <th>Geografia</th>
+                <td>Geografia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td colspan="4" class="humanas">Media de Humanas</td>
-                <td class="humanas">0.0</td>
+                <td colspan="4" class="white">Media de Humanas</td>
+                <td class="white">0.0</td>
             </tr>
 
 
