@@ -24,7 +24,6 @@
         thead{
             width: 500px;
             background-color: gray;
-
         }
 
         td.white{
@@ -37,9 +36,8 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: 1.5em;
         }
-
-
-    </style>
+        
+        </style>
     
 </head>
 <body>
@@ -48,80 +46,76 @@
 
         <thead>
             <tr>
-                <th rowspan="2" >Area</th>
-                <th rowspan="2" >Disciplina</th>
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2" scope="col">Disciplina</th>
                 <th colspan="2" >Notas</th>
-                <th rowspan="2">Media</th>
+                <th rowspan="2" scope="col">Media</th>
             </tr>
 
             <tr>
-                <th class=" white">Nota 1</th>
-                <th>Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
-                <td>Matematica</td>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td scope="row">Matematica</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td>Fisica</td>
+                <td scope="row">Fisica</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td>Quimica</td>
+                <td scope="row">Quimica</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td>Biologia</td>
+                <td scope="row">Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td colspan="4" class="white">Media de Exatas</td>
+                <td colspan="4" class="white" scope="row">Media de Exatas</td>
                 <td class="white">0.0</td>
             </tr>
 
             <tr>
-                <th rowspan="2">Humanas</th>
-                <td>Historia</td>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td scope="row">Historia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td>Geografia</td>
+                <td scope="row">Geografia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td colspan="4" class="white">Media de Humanas</td>
+                <td colspan="4" class="white" scope="row">Media de Humanas</td>
                 <td class="white">0.0</td>
             </tr>
-
-
+        
         </tbody>
-
-
-
+    
     </table>
-</body>
     
 </body>
 </html>
