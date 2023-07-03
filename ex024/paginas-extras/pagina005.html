@@ -6,7 +6,16 @@
     <title>JavaScripts</title>
 </head>
 <body>
-    <a href="#">Click em mim</a>
+    <a href="#" onclick="clicou()">Click em mim</a>
+
+    <div id="saida"></div>
+
+    <script>
+        function clicou(){
+            s=window.document.getElementById("saida")
+            s.innerHTML +='<p>Voce Clicou!</p>'
+        }
+    </script>
     
 </body>
 </html>
