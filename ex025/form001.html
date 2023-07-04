@@ -4,10 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario 001</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        form{
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        form >p{
+            padding: 10px;
+        }
+
+        input{
+            border: 1px solid rgba(0, 0, 0, 0.459);
+        }
+
+        input:hover{
+            background-color: rgb(120, 248, 220);
+            font-size: 20px;
+        }
+
+        input.boxsend:hover{
+            background-color: blue;
+            color: white;
+            font-size: 1.3em;
+        }
+
+    </style>
+    
 </head>
 <body>
 
     <h1>Meu Primeiro Formulario</h1>
+
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="idnome">Nome:</label>
+            <input type="text" name="nome" id="idnome"></p>
+
+        <p><label for="idsobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="idsobrenome"></p>
+
+        <p><input type="submit" value="Enviar" class="boxsend"></p>
+    </form>
     
 </body>
 </html>
