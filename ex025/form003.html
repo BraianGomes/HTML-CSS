@@ -6,7 +6,25 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h1>Teste de Fmormulario</h1>
+    <h1>Teste de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+    <p>
+        <label for="idname">Name</label>
+        <input type="text" name="name" id="idname" required maxlength="30" placeholder="Complete Name" autocomplete="name">
+    </p>
+
+    <p>
+        <label for="idmedia">Media</label>
+        <input type="number" name="media" id="idmedia">
+    </p>
+
+    <p>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </p>
+
+</form>
     
 </body>
 </html>
