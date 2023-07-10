@@ -13,7 +13,9 @@
 
         <p>
             <label for="idnum">Number:</label>
-            <input type="range" name="num" id="idnum" min="10" max="100" value="5">
+            <input type="range" name="num" id="idnum" min="10" max="100" value="5" oninput="idval.innerHTML = Number(idnum.value)" >
+
+            <output id="idval">5</output>
         </p>
 
         <p>
