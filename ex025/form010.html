@@ -13,6 +13,12 @@
 
         <p>
             <label for="idano">Em que Ano voce Nasceu?</label>
+            <input type="number" name="ano" id="idano" min="1900" max="2023" oninput="calidade()">
+        </p>
+
+        <p>
+            <label for="ididade">Sua idade eh:</label>
+            <output id="ididade">0</output>
         </p>
 
         <p>
@@ -20,6 +26,13 @@
             <input type="reset" value="Clear">
         </p>
     </form>
+
+    <script>
+        function calidade(){
+            let atual = new Date().getFullYear()
+            ididade.innerHTML = Number(atual) - Number(idano.value)
+        }
+    </script>
     
 </body>
 </html>
