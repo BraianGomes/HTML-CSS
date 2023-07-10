@@ -6,6 +6,30 @@
     <title>Document</title>
 </head>
 <body>
+
+    <form action="cadastro.php" method="post" autocapitalize="on">
+
+        <p>
+            <label for="idcolor">Color</label>
+            <input type="color" name="color" id="idcolor" value="#008ff0">
+        </p>
+
+        <p>
+            <label for="inslevel">Satisfation Level</label>
+            <input type="range" name="inslevel" id="idinslebel" min="1" max="10" value="5">
+        </p>
+
+        <p>
+            <label for="idpicture"> Picture's Profile</label>
+            <input type="file" name="picture" id="idpicture"> 
+        </p>
+
+        <p>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </p>
+        
+    </form>
     
 </body>
 </html>
