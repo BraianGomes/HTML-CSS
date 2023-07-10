@@ -9,15 +9,17 @@
 
     <h1>Exemplo de Formulario</h1>
 
-    <form action="cadastrp.php" method="get" autocomplete="on"></form>
+    <form action="cadastrp.php" method="get" autocomplete="on">
 
     <p>
         <label for="idstate">State</label>
         <select name="State" id="idstate">
 
+            <option value="selected">--Choose--</option>
+
             <optgroup label="Regiao Sudeste">
             <option value="MG">Minas Gerais</option>
-            <option value="SP">Sao Paulo</option>
+            <option value="SP" selected >Sao Paulo</option>
             <option value="RJ">Rio de Janeiro</option>
             </optgroup>
 
@@ -31,9 +33,23 @@
     </p>
 
     <p>
+        <label for="idprof">Profission</label>
+        <input type="text" name="prof" id="idprof" list="lstprof">
+
+        <datalist id="lstprof">
+            <option value="ADM">Administrador</option>
+            <option value="CONT">Contador</option>
+            <option value="PROF">Professor</option>
+        </datalist>
+
+    </p>
+
+    <p>
         <input type="submit" value="Send">
         <input type="reset" value="Clear">
     </p>
+
+</form>
     
 </body>
 </html>
