@@ -1,3 +1,17 @@
 @charset "UTF-8";
 
 /*Portrait Style*/
+
+:root{
+    --darkblue: #318F77;
+    --violet: #B900CC;
+    --lightblue: #60DBBD;
+    --yellow: #F1C84B;
+    --yellowbrown:#8F7938;
+    --backgroundviolet:#FF72FF;
+    }
+
+
+body{
+    background-color: var(--lightblue);
+}
