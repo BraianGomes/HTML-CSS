@@ -1,3 +1,30 @@
 @charset "UTF-8";
 
 /*General Style*/
+
+:root{
+    --darkblue: #318F77;
+    --violet: #B900CC;
+    --lightblue: #60DBBD;
+    --yellow: #F1C84B;
+    --yellowbrown:#8F7938;
+    --backgroundviolet:#FF72FF;
+    }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--yellow);
+}
+
+h1{
+    color: var(--violet);
+    text-shadow: 2px 2px 0px var(--backgroundviolet);
+    padding: 10px;
+}
