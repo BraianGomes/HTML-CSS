@@ -6,7 +6,8 @@
     <title>Media Query 003</title>
 
     <style>
-        /*declaracoes gerais*/
+
+/*declaracoes gerais*/
         *{
             margin: 0px;
             padding: 0px;
@@ -26,20 +27,25 @@
             text-shadow: 2px 2px 0px #03106e;
             padding: 10px;
         }
-
-        /*declaracoes portrait*/
         
-        body{
+/*declaracoes portrait*/
+        @media screen  and (orientation: portrait){
+
+            body{
             background-image: url(../image/cev-portrait.jpg);
             background-position: center bottom;
         }
+}
 
-        /*declaracoes landscape*/
+/*declaracoes landscape*/
+        @media screen and (orientation: landscape) {
 
-        body{
+            body{
             background-image: url(../image/cev-landscape.jpg);
             background-position: left bottom;
+            
         }
+}
 
     </style>
 
