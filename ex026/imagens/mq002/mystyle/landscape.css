@@ -11,6 +11,7 @@
     --backgroundviolet:#FF72FF;
     }
 
-    body{
-        background-color:red;
-    }
+  body{
+    background-image: url(../image/cev-landscape.jpg);
+    background-position: left bottom;
+  }

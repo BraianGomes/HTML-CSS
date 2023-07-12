@@ -21,6 +21,8 @@ html,body{
     width: 100vw;
     height: 100vh;
     background-color: var(--yellow);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1{

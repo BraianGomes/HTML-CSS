@@ -11,7 +11,7 @@
     --backgroundviolet:#FF72FF;
     }
 
-
 body{
-    background-color: var(--lightblue);
+    background-image: url(../image/cev-portrait.jpg);
+    background-position: center bottom;
 }
