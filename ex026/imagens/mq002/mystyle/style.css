@@ -2,15 +2,6 @@
 
 /*General Style*/
 
-:root{
-    --darkblue: #318F77;
-    --violet: #B900CC;
-    --lightblue: #60DBBD;
-    --yellow: #F1C84B;
-    --yellowbrown:#8F7938;
-    --backgroundviolet:#FF72FF;
-    }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -20,13 +11,13 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: #233eff;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 h1{
     color: var(--violet);
-    text-shadow: 2px 2px 0px var(--backgroundviolet);
+    text-shadow: 2px 2px 0px #0a26fd98;
     padding: 10px;
 }
