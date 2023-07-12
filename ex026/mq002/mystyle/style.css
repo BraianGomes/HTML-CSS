@@ -17,7 +17,7 @@ html,body{
 }
 
 h1{
-    color: var(--violet);
-    text-shadow: 2px 2px 0px #0a26fd98;
+    color: white;
+    text-shadow: 2px 2px 0px #03106e;
     padding: 10px;
 }
