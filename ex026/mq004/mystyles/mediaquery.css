@@ -18,11 +18,17 @@ Grandes telas: 1025px - 1200px
 
     main{
         border: 2px solid black;
+        width: 90vw;
     }
     
     main h1{
         text-shadow: none;
         color: black;
+    }
+
+    main::after{
+        content: "Essa Impressao foi atraves feita do site www.cursoemvideo.com";
+        text-decoration: overline;
     }
 
     img#phone{
@@ -41,6 +47,11 @@ Grandes telas: 1025px - 1200px
     body{
         background-image: url(../images/back-tablet.jpg);
     }
+
+    main{
+        width: 500px;
+    }
+
     img#phone{
         display: none;}
     img#tablet{
@@ -57,6 +68,11 @@ Grandes telas: 1025px - 1200px
     body{
         background-image: url(../images/back-pc.jpg);
     }
+
+    main{
+        width: 650px;
+    }
+
     img#phone{
         display: none;}
     img#tablet{
@@ -72,6 +88,10 @@ Grandes telas: 1025px - 1200px
 @media screen and (min-width:1201px){
     body{
         background-image: url(../images/back-tv.jpg);
+    }
+
+    main{
+        width: 800px;
     }
     img#phone{
         display: none;}
