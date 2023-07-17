@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/media-query.css">
 
 </head>
-<body onresize="mudouTamanho">
+<body onresize="mudouTamanho()">
     
     <header>
         
@@ -50,7 +50,7 @@
         function mudouTamanho(){
             if (window.innerWidth >=768) {
                 itens.style.display = 'block'
-            } else{
+            } else {
                 itens.style.display = 'none'
             }
         }
